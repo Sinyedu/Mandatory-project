@@ -8,7 +8,16 @@ body {
     margin:0;
     padding:0;     
     }
-  
+  .nav-link {
+    transition: 30ms;
+    transition: ease;
+  }
+
+    .nav-link:hover {
+        color: #ffc107;
+transition-delay: 30ms;
+        }
+
 .backgroundcolor 
 {width: 100%;
     height: auto;
@@ -38,6 +47,8 @@ body {
 
 .container-article 
 {width: 100%;}
+
+
 
 
 
